@@ -39,7 +39,7 @@ Here are the commands needed to install the new packages:
 conda install pytorch cudatoolkit=11.6 -c pytorch -c conda-forge
 
 # Mac specific command
-conda install pytorch torchvision torchaudio -c pytorch
+conda install pytorch -c pytorch
 
 # These three commands are for both mac and windows, feel free to try to oneline it for a bit of a conda chalange
 conda install -c conda-forge -c plotly sentence-transformers umap-learn hdbscan plotly
